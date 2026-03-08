@@ -10,6 +10,10 @@ app.get('/version', (req, res) => {
   res.send('1')
 })
 
+app.get('/ping', (req, res) => {
+  res.send('pong')
+})
+
 app.get('/health', (req, res) => {
   res.send('ok')
 })
