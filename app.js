@@ -10,11 +10,9 @@ app.get('/version', (req, res) => {
   res.send('1')
 })
 
-app.get('/ping', (req, res) => {
-  res.send('pong')
-})
-
 app.get('/health', (req, res) => {
+  // eslint-disable-next-line no-constant-condition
+  if (true) throw 'error...'
   res.send('ok')
 })
 
