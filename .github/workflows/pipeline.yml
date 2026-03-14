@@ -1,4 +1,4 @@
-name: Deploment pipeline
+name: Deploment pipeline test
 
 on:
   push:
