@@ -1,4 +1,4 @@
-name: Deploment pipeline
+name: Deployment pipeline
 
 on:
   push:
@@ -47,4 +47,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           DEFAULT_BUMP: patch
-          DRY_RUN: true
